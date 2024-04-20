@@ -1,0 +1,30 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:traq-bot-ts": "npm:traq-bot-ts@1.2.1"
+    },
+    "npm": {
+      "traq-bot-ts@1.2.1": {
+        "integrity": "sha512-3jgyNpsPAeLF/Zx4c93srvUY9gOwyNUnrr+z3d90Il37R/LSoX1hBGuRI4M/gtwHItpE9L/O0cFQzZemiM59Kw==",
+        "dependencies": {
+          "ws": "ws@8.16.0",
+          "zod": "zod@3.22.5"
+        }
+      },
+      "ws@8.16.0": {
+        "integrity": "sha512-HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==",
+        "dependencies": {}
+      },
+      "zod@3.22.5": {
+        "integrity": "sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.223.0/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
+    "https://deno.land/std@0.223.0/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
+    "https://deno.land/std@0.223.0/dotenv/stringify.ts": "275da322c409170160440836342eaa7cf012a1d11a7e700d8ca4e7f2f8aa4615"
+  }
+}
